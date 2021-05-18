@@ -1,9 +1,14 @@
+
+  @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
+
 html {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  overflow-x: hidden!important;
 }
 
 body{
@@ -12,12 +17,18 @@ body{
   min-height: 100vh;
   place-items: center;
   line-height: 1.6;
+  font-family: 'Quicksand', sans-serif;
+  color: #324e63;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .card{
   color: white;
   padding: 3rem 0 0;
-  max-width: 25ch;
+  max-width: 23ch;
   overflow: visible;
   -webkit-backdrop-filter: blur(20px);
   background: rgba( 255, 255, 255, 0.25 );
@@ -26,16 +37,18 @@ body{
   -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  transition: transform 500ms ease;
+  transition: transform 700ms ease;
   float: left;
-  margin-left: 6%;
-  margin-right: 6%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 0%;
+  margin-bottom: 8%;
 
 }
 
 
 .card:hover{
-  transform: scale(1.1);
+  transform: scale(1.07);
 }
 
 .card-content{ 
@@ -83,7 +96,7 @@ body{
 
 .button:hover,
 .button:focus{
-  background-color: lightgreen;
+  background-color: rgb(207,119,0);
 }
 
 h1{
@@ -115,7 +128,7 @@ h1{
 .header h1{
   float: left;
   margin: 0;
-  padding: 0px 80px 20px;
+  padding: 0px 100px 40px;
   font-size: 22px;
   color: #fff;
 }
@@ -250,6 +263,7 @@ font-size: 16px;
     Position: absolute;
      background-color:rgba(0, 0, 0, 0.75);
   }
+
   .footer h2{
     left: 200px;
     font-size: 16px;
@@ -272,3 +286,18 @@ text-rendering: optimizelegibility;
 text-size-adjust: 100%;
 -webkit-font-smoothing: antialiased;
   }
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+
