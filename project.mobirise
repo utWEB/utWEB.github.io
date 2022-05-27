@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Liss Project",
-    "currentPage": "OU0IR26XHZ.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "goalm5",
       "title": "GoalM5",
@@ -62,18 +62,19 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 24,
+    "uniqCompNum": 26,
     "versionPublish": "5.6.8",
     "chatbutton": {},
-    "favicon": false,
-    "mbrsiteDomain": "sklqaouwcx",
+    "favicon": "@PROJECT_PATH@/assets/images/internet-icon-128x128.png",
+    "mbrsiteDomain": "7p9dqdm7dg",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -106,16 +107,15 @@
             }
           },
           "_cid": "t70nOrLo0g",
+          "_anchor": "header1-6",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header1-6"
+          "_params": {}
         },
         {
           "_name": "footer01",
           "_sourceTheme": "conceptm4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/conceptm4/components/_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#eaeaea\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#333333\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-right mbr-white\">\n            <div class=\"row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".foot-menu-item\">\n                        <a href=\"#\" class=\"text-black\">FACEBOOK</a></li>\n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -179,12 +179,14 @@
               "color": "#333333"
             }
           },
-          "_cid": "t70jSjEgb5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" global=\"\" once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline=\"\" title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Image\" value=\"\">\n            <input type=\"color\" title=\"Color\" value=\"#eaeaea\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#333333\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-right mbr-white\">\n            <div class=\"row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list=\"\" mbr-list-grow=\"menuItems\">\n                    <li mbr-text=\"\" class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".foot-menu-item\">\n                        <a href=\"#\" class=\"text-black\">FACEBOOK</a></li>\n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                    © Copyright 2022 and Built by&nbsp;<a href=\"https://computersuntangled.com/\" class=\"text-primary\" target=\"_blank\"><b>Computers Untangled</b></a>. All Rights Reserved.\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "footer01-p",
+          "_isUserblock": true,
+          "_cid": "t70BH7AU0B",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer01-3"
+          "_params": {}
         }
       ]
     },
@@ -289,11 +291,11 @@
             }
           },
           "_cid": "t70ty0fhIX",
+          "_anchor": "header8-m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header8-m"
+          "_params": {}
         },
         {
           "alias": false,
@@ -306,11 +308,11 @@
           "_sourceTheme": "goalm5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href data-app-placeholder=\"Type Text\"><span class=\"mdi-action-perm-contact-cal mbr-iconfont mbr-iconfont-btn\"></span>Add Contact</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "t70qukP4v7",
+          "_anchor": "content11-e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content11-e"
+          "_params": {}
         },
         {
           "alias": false,
@@ -374,82 +376,7 @@
         "order": 3,
         "meta_descr": "John Cook"
       },
-      "components": [
-        {
-          "_name": "footer01",
-          "_sourceTheme": "conceptm4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/conceptm4/components/_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#eaeaea\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#333333\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-right mbr-white\">\n            <div class=\"row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".foot-menu-item\">\n                        <a href=\"#\" class=\"text-black\">FACEBOOK</a></li>\n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".row-links": {
-              "width": "100%",
-              "justify-content": "flex-end",
-              "@media (max-width: 992px)": {
-                "justify-content": "center"
-              }
-            },
-            ".container": {
-              "max-width": "1750px",
-              "@media (min-width: 767px)": {
-                "padding": "0 2rem"
-              }
-            },
-            ".media-container-row": {
-              "flex-direction": "row-reverse",
-              "justify-content": "space-between",
-              "align-items": "center",
-              ".foot-menu": {
-                "list-style": "none",
-                "display": "flex",
-                "justify-content": "flex-end",
-                "flex-wrap": "wrap",
-                "padding": "0",
-                "margin-bottom": "0",
-                "li": {
-                  "padding": "0 1rem",
-                  "p": {
-                    "margin": "0"
-                  }
-                },
-                "@media (max-width: 992px)": {
-                  "justify-content": "center"
-                }
-              },
-              ".row-copirayt": {
-                "word-break": "break-word",
-                "width": "100%",
-                "p": {
-                  "width": "100%"
-                }
-              }
-            },
-            ".mbr-text": {
-              "text-align": "left",
-              "@media (max-width: 992px)": {
-                "text-align": "center",
-                "padding-top": "1rem"
-              },
-              "color": "#333333"
-            },
-            ".mbr-copirayt": {
-              "color": "#333333"
-            }
-          },
-          "_cid": "t70prgJ5gK",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footers",
-          "_params": {},
-          "_anchor": "footer01-a"
-        }
-      ]
+      "components": []
     }
   }
 }
